@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Property Webpage Template</title>
+
+  <!-- Stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700"
+    rel="stylesheet">  
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <!-- Scripts -->
+  <script defer
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+  <script defer type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__main-content">
+      <h1 class="header__main-heading">2735 Monterey Road, San Marino</h1>
+      <p class="header__property-info">5 beds / 3 baths</p>
+      <p class="header__property-info">Built in 1927</p>
+      <p class="header__property-info">House is 2,454 sq</p>
+      <p class="header__property-info">Lot 6,787</p>
+      <a href="https://my.matterport.com/show/?m=9TNCPTv5AFL" class="virtual-tour-link">
+        <button class="virtual-tour-btn">Virtual Tour</button>
+      </a>
+    </div>
+  </header>
+  <main class="main container" role="main">
+    <div class="main__promo-video">
+      <video controls poster="assets/photos/video-poster.jpg">
+        <source src="assets/promo-vid.mp4" type="video/mp4">
+          Sorry, your browser doesn't support embedded videos.
+      </video>
+    </div>
+
+    <section class="main__property-details">
+      <p>Classic 1927 Spanish Revival in San Marino’s popular Mission District. Located on a tree lined street, this carefully maintained gem, offers original details and an ideal floor plan perfect for entertaining. The light and spacious rooms include a large living room with ample windows and French doors that open to the backyard covered patio. This property also includes a formal dining room, kitchen with breakfast nook, 4 bedrooms upstairs including a large master suite and a 5th bedroom located downstairs that can be used as a den or office. Dual unit Central Air. Basement which could provide the opportunity for a wine cellar conversion if desired.</p>
+      <p>First time on the market in over 50 years! </p>
+    </section>
+
+    <section id="still-shots" class="main__property-images container">
+      <!-- Popup Images-->
+      <div href="#still-shots" id="living-room-popup" class="popup">
+        <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/living-room-1200w.jpg" alt="Living room">
+      </div>
+       <div href="#still-shots" id="family-room-popup" class="popup">
+         <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/family-room-1200w.jpg" alt="Family room">
+      </div>
+       <div href="#still-shots" id="dining-room-popup" class="popup">
+         <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/dining-room-1200w.jpg" alt="Dining room">
+      </div>
+       <div href="#still-shots" id="bedroom-popup" class="popup">
+         <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/bedroom-1200w.jpg" alt="Bed room">
+      </div>
+       <div href="#still-shots" id="bedroom-2-popup" class="popup">
+         <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/bedroom-2-1200w.jpg" alt="Bedroom">
+      </div>
+       <div href="#still-shots" id="bedroom-3-popup" class="popup">
+         <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/bedroom-3-1200w.jpg" alt="Bedroom">
+      </div>
+       <div href="#still-shots" id="bedroom-4-popup" class="popup">
+         <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/bedroom-4-1200w.jpg" alt="Bedroom">
+      </div>
+      <div href="#still-shots" id="frontyard-popup" class="popup">
+        <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/frontyard-1200w.jpg" alt="Front yard">
+      </div>
+      <div href="#still-shots" id="backyard-popup" class="popup">
+        <a href="#still-shots" class="close">&times;</a>
+        <img src="assets/photos/backyard-1200w.jpg" alt="Back yard">
+      </div>
+
+      <!-- Image slider -->
+      <div class="main__carousel">
+        <div class="main__carousel-slide">
+          <a href="#living-room-popup">
+            <img src="assets/photos/living-room-550w.jpg" alt="Living room">
+          </a>
+        </div>
+        <div class="main__carousel-slide">
+          <a href="#family-room-popup">
+            <img src="assets/photos/family-room-550w.jpg" alt="Family room">
+          </a>
+        </div>
+        <div class="main__carousel-slide">
+          <a href="#dining-room-popup">
+            <img src="assets/photos/dining-room-550w.jpg" alt="Dining room">
+          </a>
+        </div>
+        <div class="main__carousel-slide">
+          <a href="#bedroom-popup">
+            <img src="assets/photos/bedroom-550w.jpg" alt="Bedroom">
+          </a>
+        </div>
+        <div class="main__carousel-slide">
+          <a href="#bedroom-2-popup">
+            <img src="assets/photos/bedroom-2-550w.jpg" alt="Bedroom">
+          </a>
+        </div>
+        <div class="main__carousel-slide">
+          <a href="#bedroom-3-popup">
+            <img src="assets/photos/bedroom-3-550w.jpg" alt="Bedroom">
+          </a>
+        </div>
+        <div class="main__carousel-slide">
+          <a href="#bedroom-4-popup">
+            <img src="assets/photos/bedroom-4-550w.jpg" alt="Bedroom">
+          </a>
+        </div>
+        <div class="main__carousel-slide">
+          <a href="#frontyard-popup">
+            <img src="assets/photos/frontyard-550w.jpg" alt="Front yard">
+          </a>
+        </div>
+        <div class="main__carousel-slide">
+          <a href="#backyard-popup">
+            <img src="assets/photos/backyard-550w.jpg" alt="Back yard">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contact container">
+    <p>If you are interested in this listing please contact:</p>
+    <ul>
+      <li>Joelle Grossi</li>
+      <li>Phone: <a href="tel:+16262781065">&nbsp;+16262781065</a></li>
+      <li>Email: <a href="mailto:joelle.grossi@compass.com">joelle.grossi@compass.com</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
