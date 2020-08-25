@@ -1,4 +1,6 @@
 $(document).ready(() => {
+  $('body').removeClass('preload');
+  
   $('.main__carousel').slick({
     dots: true,
     infinite: true,

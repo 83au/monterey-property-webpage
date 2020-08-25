@@ -31,6 +31,10 @@ body {
   font-family: Montserrat, sans-serif;
 }
 
+.preload * {
+  transition: none !important;
+}
+
 .container {
   margin: 0 auto;
   max-width: 90rem;
@@ -88,13 +92,12 @@ section {
 }
 
 .virtual-tour-btn {
+  padding: 2rem;
   background-color: var(--color-white);
   border: none;
   /* color: var(--color-primary); */
   color: var(--color-black);
   cursor: pointer;
-  height: 6rem;
-  width: 18rem;
   font-size: 2rem;
 }
 
@@ -234,7 +237,8 @@ section {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  background-color: var(--color-black);
 }
 
 .slick-dots button {
